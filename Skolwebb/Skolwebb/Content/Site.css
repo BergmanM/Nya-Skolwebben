@@ -1,0 +1,166 @@
+﻿body {
+    
+    background: url('Images/skidåkning wp.jpg');
+    
+    background-position-x:center;
+    background-repeat:no-repeat;
+    
+    
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+.Menu{
+   
+       
+    
+    margin:0 auto;
+    width:100%;
+    text-align:center;
+    font-size:250px;
+}
+.Home {
+    background-image: url('Images/Home.png');
+    background-size:75px;
+    background-repeat:no-repeat;
+    opacity:0.89;
+    background-position:center;
+}
+.Me {
+    
+    background-image: url('Images/Me.png');
+    background-repeat:no-repeat;
+    background-size:75px;
+    opacity:0.89;
+    background-position:center;
+   
+}
+.Project {
+    background-image: url('Images/Project.png');
+    background-repeat: no-repeat;
+    background-size: 75px;
+    background-position:center;
+    opacity:0.89;
+}
+.Contact{
+    
+    /*width:100px;
+    height:100px;*/
+    background-image: url('Images/Contact.png');
+    background-size:75px;
+    background-repeat:no-repeat;
+    opacity:0.89;
+    background-position:center;
+}
+.circleBase {
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+    border-width:10px;
+    border-color: rgb(117, 0, 65) ;
+    margin:15% 0px 0px 0px;
+    display:inline-block;
+    height:113px;
+    width:113px;
+    border-style:solid;
+    
+    
+}
+.BG {
+    height:100vh;
+    width:100vw;
+         background: url('Images/skidåkning wp.jpg');
+         -moz-filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+         -o-filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+         -webkit-filter: grayscale(100%);
+         filter: grayscale(100%);
+         filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+         position:absolute;
+        
+     }
+.Color{
+    -webkit-filter: grayscale(0%);
+    filter: grayscale (0%);
+
+    -moz-filter: grayscale(0%);
+    filter: grayscale(0%);
+    
+    -o-filter: grayscale(0%);
+    filter: grayscale(0%);
+    height:100vh;
+    
+}
+.Menua{
+
+}
+#homepng{
+    height:75px;
+    width:75px;
+    color:red;
+}
+.About{
+    min-height:400px;
+    width:30%;
+    top:30%;
+    left:35%;
+    position:absolute;
+    background-color:rgb(117, 0, 65);
+    text-align:left;
+}
+.Contacting{
+     min-height:400px;
+    width:30%;
+    top:30%;
+    left:35%;
+    position:absolute;
+    background-color:rgb(117, 0, 65);
+}
+.Projects{
+     min-height:400px;
+    width:30%;
+    top:30%;
+    left:35%;
+    position:absolute;
+    background-color:rgb(117, 0, 65);
+}
+.projectContainer{
+    width:100%;
+    
+}
+AboutP{
+    margin: 4% 0px 0px 3%;
+}
