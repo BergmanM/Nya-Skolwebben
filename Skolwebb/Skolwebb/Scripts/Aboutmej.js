@@ -64,7 +64,7 @@ function tra2div(tal1, hardrnav, hardA, hardP, hardC, tal2, tal3, tal4) {
     }
         //about end
         // projects
-    else if (pro == 1 && hardP == 1) {
+    if (pro == 1 && hardP == 1) {
         $("article.Projects").fadeIn(500);
       
     }
@@ -74,7 +74,7 @@ function tra2div(tal1, hardrnav, hardA, hardP, hardC, tal2, tal3, tal4) {
     }
         //project end
         //Contact
-    else if (con == 1 && hardC == 1) {
+    if (con == 1 && hardC == 1) {
         $("article.Contacting").fadeIn(500);
         
     }
@@ -87,28 +87,28 @@ function tra2div(tal1, hardrnav, hardA, hardP, hardC, tal2, tal3, tal4) {
 
 
         //RESET!!!!!!!
-    else if (nav >= 2) {
+    if (nav >= 2) {
         nav = 1
     }
-    else if (nav <= -1) {
+    if (nav <= -1) {
         nav = 0
     }
-    else if (me >= 2) {
+    if (me >= 2) {
         me = 1
     }
-    else if (me <= -1) {
+    if (me <= -1) {
         me = 0
     }
-    else if (pro >= 2) {
+    if (pro >= 2) {
         pro = 1
     }
-    else if (pro <= -1) {
+    if (pro <= -1) {
         pro = 0
     }
-    else if (con >= 2) {
+    if (con >= 2) {
         con = 1
     }
-    else if (con <= -1) {
+    if (con <= -1) {
         con = 0
     }
 
