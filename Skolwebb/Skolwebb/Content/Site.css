@@ -147,7 +147,7 @@ input[type="checkbox"].input-validation-error {
     top:30%;
     left:35%;
     position:absolute;
-    background-color:rgb(117, 0, 65);
+    background-color:green;
 }
 .Projects{
      min-height:400px;

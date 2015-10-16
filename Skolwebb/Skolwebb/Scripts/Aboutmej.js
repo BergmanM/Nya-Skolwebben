@@ -41,57 +41,47 @@ function tra2div(tal1, hardrnav, hardA, hardP, hardC, tal2, tal3, tal4) {
     //NAV!!!!!!!!
     if (nav == 0 && hardrnav == -1) {
         $("div.circleBase").animate({ margin: '+=7% 0px 0px 0px', height: '+=40px', width: '+=40px', borderWidth: '+=4px', backgroundSize: '+=30px' }, 1000);
-        $.removeData(hardrnav);
-        $.removeData(hardA);
-        $.removeData(hardP);
-        $.removeData(hardC);
+    
     }
     else if (nav == 1 && hardrnav == 1) {
         $("div.circleBase").animate({ margin: '-=7% 0px 0px 0px', height: '-=40px', width: '-=40px', borderWidth: '-=4px', backgroundSize: '-=30px' }, 1000);
-        $.removeData(hardrnav);
-        $.removeData(hardA);
-        $.removeData(hardP);
-        $.removeData(hardC);
+       
     }
-
+   
+    
 
 
     //ARTICLES!!!!!
     //about
     if (me == 1 && hardA == 1) {
         $("article.About").fadeIn(500);
-        $.removeData(hardA);
-        $.removeData(hardP);
-        $.removeData(hardC);
-        $.removeData(hardrnav);
+       
     }
 
     else if (me == 0 && hardA == -1) {
         $("article.About").fadeOut(500);
-        $.removeData(hardA);
-        $.removeData(hardP);
-        $.removeData(hardC);
-        $.removeData(hardrnav);
+        
     }
         //about end
         // projects
     else if (pro == 1 && hardP == 1) {
         $("article.Projects").fadeIn(500);
-        $.removeData(hardA);
-        $.removeData(hardP);
-        $.removeData(hardC);
-        $.removeData(hardrnav);
+      
     }
     else if (pro == 0 && hardP == -1) {
         $("article.Projects").fadeOut(500);
-        $.removeData(hardA);
-        $.removeData(hardP);
-        $.removeData(hardC);
-        $.removeData(hardrnav);
+       
     }
         //project end
         //Contact
-
+    else if (con == 1 && hardC == 1) {
+        $("article.Contacting").fadeIn(500);
+        
+    }
+    else if (con == 0 && hardC == -1) {
+        $("article.Contacting").fadeOut(500);
+        
+    }
         //contact end
 
 
@@ -104,7 +94,7 @@ function tra2div(tal1, hardrnav, hardA, hardP, hardC, tal2, tal3, tal4) {
         nav = 0
     }
     else if (me >= 2) {
-        me  = 1
+        me = 1
     }
     else if (me <= -1) {
         me = 0
@@ -122,7 +112,10 @@ function tra2div(tal1, hardrnav, hardA, hardP, hardC, tal2, tal3, tal4) {
         con = 0
     }
 
-
+    $.removeData(hardA);
+    $.removeData(hardP);
+    $.removeData(hardC);
+    $.removeData(hardrnav);
 
 
 
