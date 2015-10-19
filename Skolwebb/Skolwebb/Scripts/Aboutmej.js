@@ -6,7 +6,7 @@ $(document).ready(function () {
     $("div.Menu").hide();
 });
 $(document).ready(function () {
-    $("div.Menu").fadeIn(2000);
+    $("div.Menu").fadeIn(3000);
 });
 var nav;
 var me;
@@ -40,11 +40,11 @@ function tra2div(tal1, hardrnav, hardA, hardP, hardC, tal2, tal3, tal4) {
     con += tal4;
     //NAV!!!!!!!!
     if (nav == 0 && hardrnav == -1) {
-        $("div.circleBase").animate({ margin: '+=7% 0px 0px 0px', height: '+=40px', width: '+=40px', borderWidth: '+=4px', backgroundSize: '+=30px' }, 1000);
+        $("div.circleBase").animate({ margin: '+=7% 0px 0px 0px', height: '+=40px', width: '+=40px', borderWidth: '+=2px', backgroundSize: '+=30px' }, 1000);
     
     }
     else if (nav == 1 && hardrnav == 1) {
-        $("div.circleBase").animate({ margin: '-=7% 0px 0px 0px', height: '-=40px', width: '-=40px', borderWidth: '-=4px', backgroundSize: '-=30px' }, 1000);
+        $("div.circleBase").animate({ margin: '-=7% 0px 0px 0px', height: '-=40px', width: '-=40px', borderWidth: '-=2px', backgroundSize: '-=30px' }, 1000);
        
     }
    
