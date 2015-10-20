@@ -134,10 +134,11 @@ input[type="checkbox"].input-validation-error {
     top: 30%;
     left: 35%;
     position: absolute;
-    background-color: transparent;
+    background-color: rgba(128, 128, 128, 0.75);
     text-align: left;
     border-radius:20px;
-   
+    color:black;
+    font-size:16px;
     border:2px solid rgb(117, 0, 65);
 }
 
@@ -155,11 +156,11 @@ input[type="checkbox"].input-validation-error {
 
 .Projects {
     min-height: 400px;
-    width: 30%;
+    width: 60%;
     top: 30%;
     left: 35%;
     position: absolute;
-    background-color: black;
+    border:dotted black;
 }
 
 .projectContainer {
