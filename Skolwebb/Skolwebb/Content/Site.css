@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
-    background-size: cover;
+    background-size:cover;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -116,7 +116,7 @@ input[type="checkbox"].input-validation-error {
     -o-filter: grayscale(0%);
     filter: grayscale(0%);
     height: 100vh;
-    width: 100vw;
+    width:100vw;
 }
 
 .Menua {
@@ -134,12 +134,11 @@ input[type="checkbox"].input-validation-error {
     top: 30%;
     left: 35%;
     position: absolute;
-    background-color: rgba(128, 128, 128, 0.5);
+    background-color: transparent;
     text-align: left;
-    border-radius: 20px;
-    color: black;
-    border: 2px solid rgb(117, 0, 65);
-    font-size:16px;
+    border-radius:20px;
+   
+    border:2px solid rgb(117, 0, 65);
 }
 
 .Contacting {
@@ -169,6 +168,7 @@ input[type="checkbox"].input-validation-error {
 
 .AboutP {
     margin: 4% 0px 0px 3%;
+    
 }
 
 .projectContainer {
