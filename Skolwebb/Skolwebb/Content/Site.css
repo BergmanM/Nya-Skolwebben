@@ -131,15 +131,17 @@ input[type="checkbox"].input-validation-error {
 .About {
     min-height: 400px;
     width: 30%;
+    min-width:200px;
     top: 30%;
     left: 35%;
     position: absolute;
     background-color: rgba(128, 128, 128, 0.75);
     text-align: left;
-    border-radius: 20px;
+    border-radius: 150px 150px 20px 20px;
     color: black;
     font-size: 16px;
     border: 2px solid rgb(117, 0, 65);
+   
 }
 
 .Contacting {
@@ -178,4 +180,14 @@ input[type="checkbox"].input-validation-error {
     border-bottom-right-radius: 50px;
     display:inline-block;
     border:2px solid rgb(117, 0, 65);
+}
+.Mvmemory {
+    background-image: url('Images/MVMemory.png');
+    background-size:cover;
+}
+.jag{
+    height:170px;
+    border-radius:20px;
+    border:2px solid rgb(117, 0, 65);
+    margin:0 0 0 35%;
 }
