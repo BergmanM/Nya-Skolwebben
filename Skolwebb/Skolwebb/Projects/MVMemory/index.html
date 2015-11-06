@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>MV Memory</title>
+    <link rel="shortcut icon" type="image/x-icon" href="graphics/titleicon.png" />
+    <link rel="stylesheet" href="Style.css" />
+    <script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="hideslide.js"></script>
+    <script type="text/javascript" src="timer.js"></script>
+    
+</head>
+<body>
+    <div id="opac">
+        <div id="rudincirkel">
+            <center>
+                <button id="btn2" class="btn2" onclick="tra2div(1,1);">Play</button>
+                <button id="btn1" class="btn1" onclick="tra2div(-1,-1)">Hide</button>
+            </center>
+        </div>
+    </div>
+    <header></header>
+    <div id="lsd">
+        <div id="whitewrapper">
+            
+            <article>
+                           
+                <div id="memory_board"></div>
+                <script>newBoard();</script> 
+                <p id="p1">Moves:</p>
+                <p id="drag">0</p>         
+            </article>
+        </div>
+    </div>
+    <footer>
+        <center>
+            <p>Made by Vincent and Måns</p>
+        </center>
+    </footer>
+</body>
+</html>

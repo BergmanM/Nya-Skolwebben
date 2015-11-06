@@ -1,0 +1,342 @@
+﻿body {
+    font-family: 'Lithos Pro';
+    background-image: url(bakgrund.png), url(bakgrund2.png);
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+}
+
+div#underbody {
+    background-image: url(bakgrund2.png);
+}
+
+#swag {
+    width: 1115px;
+    background-color: rgba(1, 71, 147, 0.20);
+    height: 600px;
+    margin: auto;
+    margin-top: 90px;
+}
+
+nav {
+    list-style-type: none;
+    display: block;
+    margin-top: 8%;
+    margin-left: 11%;
+    
+}
+
+    nav li {
+        display: inline-block;
+    }
+
+header {
+}
+
+footer {
+    background-color: rgba(1, 71, 147, 0.20);
+    width: 1000px;
+    height: 110px;
+    margin: auto;
+    margin-top: 20px;
+    background-image: url(brands.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+span.navigationSpace {
+    margin-left: 150px;
+}
+
+span.footerSpace {
+    margin-left: 20px;
+}
+
+
+
+
+
+/*http://line25.com/tutorials/build-a-simple-image-slideshow-with-jquery-cycle */
+
+
+
+
+body, h1, ul, li {
+    margin: auto;
+    padding: 0;
+    border: 0;
+    margin-top: 10px;
+}
+
+
+
+#container {
+    width: 1095px;
+    margin: -40px auto;
+}
+
+#slideshow ul#naav {
+    display: none;
+    list-style: none;
+    position: relative;
+    top: 210px;
+    z-index: 15;
+}
+
+    #slideshow ul#naav li#prev {
+        float: left;
+        margin: 0 0 0 10px;
+        margin-top: 310px;
+    }
+
+    #slideshow ul#naav li#next {
+        float: right;
+        margin: 0 10px 0 0px;
+        margin-top: 310px;
+    }
+
+    #slideshow ul#naav li a {
+        display: block;
+        width: 65px;
+        height: 43px;
+        text-indent: -9999px;
+    }
+
+    #slideshow ul#naav li#prev a {
+        background: url(slide/prev.png);
+        background-repeat: no-repeat;
+    }
+
+    #slideshow ul#naav li#next a {
+        background: url(slide/next.png);
+        background-repeat: no-repeat;
+    }
+
+#slideshow ul#slides {
+    list-style: none;
+}
+
+    #slideshow ul#slides li {
+        margin: 0 0 20px 0;
+    }
+
+
+
+
+
+#AAA {
+    height: 650px;
+    width: 1400px;
+    margin-top: 10px;
+    background-color: rgba(1, 71, 147, 0.20);
+    float: right;
+    margin-right: 150px;
+}
+
+aside {
+    width: 150px;
+    height: 260px;
+    background-color: rgba(1, 71, 147, 0.20);
+    float: left;
+    margin-left: 190px;
+    margin-top: 10px;
+}
+
+iframe {
+    width: 1398px;
+    height: 648px;
+    border: none;
+}
+
+aside ul {
+    list-style-type: none;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+ul a ul {
+    display: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#BBB {
+    width: 1300px;
+    height: 600px;
+    background-color: rgba(1, 71, 147, 0.20);
+    margin-left: 310px;
+    margin-top: 50px;
+}
+
+h1 {
+    font-family: 'Lithos Pro';
+    text-align:center;
+    margin-top:10px;
+    color:rgba(1, 71, 147, 1);
+}
+p{
+    font-family: 'Lithos Pro';
+    text-align:center;
+    color:rgba(1, 71, 147, 1);
+}
+#aboutpic{
+ margin-left:550px;
+}
+
+
+
+
+
+/* Base Styles */
+#cssmenu,
+#cssmenu ul,
+#cssmenu li,
+#cssmenu a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    font-weight: normal;
+    text-decoration: none;
+    line-height: 1;
+    font-family: 'Lithos Pro', sans-serif;
+    font-size: 14px;
+    font-color: rgba(1, 71, 147, 1);
+    position: relative;
+}
+
+#cssmenu {
+    width: 100px;
+    border-bottom: 4px solid transparent;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+    #cssmenu a {
+        line-height: 1.3;
+    }
+
+    #cssmenu > ul > li:first-child {
+        border: 1px solid transparent;
+        -webkit-border-radius: 3px 3px 0 0;
+        -moz-border-radius: 3px 3px 0 0;
+        border-radius: 3px 3px 0 0;
+    }
+
+        #cssmenu > ul > li:first-child > a {
+            padding: 15px 10px;
+            background: url(images/pattern.png) top left repeat;
+            border: none;
+            border-top: 1px solid transparent;
+            -webkit-border-radius: 3px 3px 0 0;
+            -moz-border-radius: 3px 3px 0 0;
+            border-radius: 3px 3px 0 0;
+            font-family: 'Lithos Pro',;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 300;
+            text-shadow: 0 -1px 1px rgba(1, 71, 147, 1);
+        }
+
+            #cssmenu > ul > li:first-child > a > span {
+                padding: 0;
+            }
+
+        #cssmenu > ul > li:first-child:hover {
+            background: transparent;
+        }
+
+    #cssmenu > ul > li {
+        background: transparent;
+    }
+
+        #cssmenu > ul > li:hover {
+            background: transparent;
+        }
+
+        #cssmenu > ul > li > a {
+            font-size: 14px;
+            display: block;
+            background: transparent;
+            color: #676767;
+            border: 1px solid transparent;
+            border-top: none;
+            text-shadow: 0 -1px 1px rgba(1, 71, 147, 1);
+        }
+
+            #cssmenu > ul > li > a > span {
+                display: block;
+                padding: 12px 10px;
+                -webkit-border-radius: 4px;
+                -moz-border-radius: 4px;
+                border-radius: 4px;
+            }
+
+            #cssmenu > ul > li > a:hover {
+                text-decoration: none;
+            }
+
+        #cssmenu > ul > li.active {
+            border-bottom: none;
+        }
+
+        #cssmenu > ul > li.has-sub > a span {
+            background: 96% center no-repeat;
+        }
+
+        #cssmenu > ul > li.has-sub.active > a span {
+            background: 96% center no-repeat;
+        }
+    /* Sub menu */
+    #cssmenu ul ul {
+        display: none;
+        background: transparent;
+        border-right: 1px solid transparent;
+        border-left: 1px solid transparent;
+        margin-left: 10px;
+    }
+
+        #cssmenu ul ul li {
+            padding: 0;
+            border-bottom: 1px solid transparent;
+            border-top: none;
+            background: transparent;
+        }
+
+            #cssmenu ul ul li:last-child {
+                border-bottom: none;
+            }
+
+        #cssmenu ul ul a {
+            padding: 10px 10px 10px 25px;
+            display: block;
+            color: rgba(1, 71, 147, 1);
+            font-size: 12px;
+            font-weight: normal;
+        }
+
+            #cssmenu ul ul a:before {
+                content: "»";
+                position: absolute;
+                left: 10px;
+                color: #0005ff;
+                text-shadow: 0 -1px 1px rgba(1, 71, 147, 1);
+            }
+
+            #cssmenu ul ul a:hover {
+                color: rgba(1, 71, 147, 1);
+                text-shadow: 0 -1px 1px rgba(1, 71, 147, 1);
+            }
+            #atext{
+                margin:30px;
+            }
